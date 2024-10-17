@@ -1,0 +1,984 @@
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 ~/Desktop
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=true
+core.fsmonitor=true
+pull.rebase=false
+init.defaultbranch=main
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=Yeran Wicky
+user.email=imagination5919@gmail.com
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 ~/Desktop
+$ cd ./C:/xampp/htdocs
+bash: cd: ./C:/xampp/htdocs: No such file or directory
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 ~/Desktop
+$ cd C:/xampp/htdocs
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs
+$ mkdir Newpro
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs
+$ ./myblog
+bash: ./myblog: Is a directory
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs
+$ cd ./myblog
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/myblog
+$ cd app
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/myblog/app
+$ cd C:/xampp/htdocs
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs
+$ mkdir AnewPro
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs
+$ cd AnewPro
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro
+$ code .
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro
+$ code
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro
+$ ls -la
+total 16
+drwxr-xr-x 1 Lenovo X1 Carbon 6G 197609 0 Oct 17 10:52 ./
+drwxr-xr-x 1 Lenovo X1 Carbon 6G 197609 0 Oct 17 10:52 ../
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/AnewPro/.git/
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ ls -la
+total 20
+drwxr-xr-x 1 Lenovo X1 Carbon 6G 197609 0 Oct 17 10:55 ./
+drwxr-xr-x 1 Lenovo X1 Carbon 6G 197609 0 Oct 17 10:52 ../
+drwxr-xr-x 1 Lenovo X1 Carbon 6G 197609 0 Oct 17 10:55 .git/
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ code
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.php
+        what.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git add index.php
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        what.php
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git rm index.php
+error: the following file has changes staged in the index:
+    index.php
+(use --cached to keep the file, or -f to force removal)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git rm --cached index.php
+rm 'index.php'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.php
+        what.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git add index.php
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git rm what.php
+fatal: pathspec 'what.php' did not match any files
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git rm -force what.php
+error: did you mean `--force` (with two dashes)?
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git rm --force what.php
+fatal: pathspec 'what.php' did not match any files
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git rm -f what.php
+fatal: pathspec 'what.php' did not match any files
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        what.php
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git rm --cached index.php
+rm 'index.php'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.php
+        what.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git add --all
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.php
+        new file:   what.php
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git rm --cached --all
+error: unknown option `all'
+usage: git rm [-f | --force] [-n] [-r] [--cached] [--ignore-unmatch]
+              [--quiet] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+              [--] [<pathspec>...]
+
+    -n, --[no-]dry-run    dry run
+    -q, --[no-]quiet      do not list removed files
+    --[no-]cached         only remove from the index
+    -f, --[no-]force      override the up-to-date check
+    -r                    allow recursive removal
+    --[no-]ignore-unmatch exit with a zero status even if nothing matched
+    --[no-]sparse         allow updating entries outside of the sparse-checkout cone
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git rm --cached
+fatal: No pathspec was given. Which files should I remove?
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git rm --cached what.php
+rm 'what.php'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        what.php
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git commit -m "Added index.php"
+[main (root-commit) 03e730f] Added index.php
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.php
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        what.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        gta.php
+        what.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git add --all
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   gta.php
+        new file:   what.php
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git rm --cached gta.php
+rm 'gta.php'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   what.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        gta.php
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git add gta.php
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   gta.php
+        new file:   what.php
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git commit -m "Added gta and what php files"
+[main 27268ac] Added gta and what php files
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 gta.php
+ create mode 100644 what.php
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git log
+commit 27268ac52416653b2d6a99b84c694ad8d4447691 (HEAD -> main)
+Author: Yeran Wicky <imagination5919@gmail.com>
+Date:   Thu Oct 17 11:09:14 2024 +0530
+
+    Added gta and what php files
+
+commit 03e730fc976a8b8e5c99012912e8bd44f4d36c65
+Author: Yeran Wicky <imagination5919@gmail.com>
+Date:   Thu Oct 17 11:07:28 2024 +0530
+
+    Added index.php
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ cod
+bash: cod: command not found
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ code
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git branch test
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git branch
+* main
+  test
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout test
+Switched to branch 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git status
+On branch test
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git checkout main
+M       index.php
+Switched to branch 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout test
+M       index.php
+Switched to branch 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git status
+On branch test
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git add --all
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git status
+On branch test
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.php
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git checkout main
+M       index.php
+Switched to branch 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.php
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout test
+M       index.php
+Switched to branch 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git status
+On branch test
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.php
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git commit -m "Added a text to index.php"
+[test 4d8e0d8] Added a text to index.php
+ 1 file changed, 11 insertions(+)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git status
+On branch test
+nothing to commit, working tree clean
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git checkout main
+Switched to branch 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout test
+Switched to branch 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git checkout -b test1
+Switched to a new branch 'test1'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git checkout test
+Switched to branch 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git branch -b test1
+error: unknown switch `b'
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-point>]
+   or: git branch [<options>] [-l] [<pattern>...]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --[no-]verbose    show hash and subject, give twice for upstream branch
+    -q, --[no-]quiet      suppress informational messages
+    -t, --[no-]track[=(direct|inherit)]
+                          set branch tracking configuration
+    -u, --[no-]set-upstream-to <upstream>
+                          change the upstream info
+    --[no-]unset-upstream unset the upstream info
+    --[no-]color[=<when>] use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --[no-]delete     delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --[no-]move       move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    --[no-]omit-empty     do not output a newline after empty formatted refs
+    -c, --[no-]copy       copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --[no-]list       list branch names
+    --[no-]show-current   show current branch name
+    --[no-]create-reflog  create the branch's reflog
+    --[no-]edit-description
+                          edit the description for the branch
+    -f, --[no-]force      force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --[no-]column[=<style>]
+                          list branches in columns
+    --[no-]sort <key>     field name to sort on
+    --[no-]points-at <object>
+                          print only branches of the object
+    -i, --[no-]ignore-case
+                          sorting and filtering are case insensitive
+    --[no-]recurse-submodules
+                          recurse through submodules
+    --[no-]format <format>
+                          format to use for the output
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git branch -d test1
+Deleted branch test1 (was 4d8e0d8).
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git branch -d test
+error: cannot delete branch 'test' used by worktree at 'C:/xampp/htdocs/AnewPro'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git checkout main
+Switched to branch 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git branch
+* main
+  test
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git branch -d test
+error: the branch 'test' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D test'
+hint: Disable this message with "git config advice.forceDeleteBranch false"
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout main
+Already on 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git merge test
+Updating 27268ac..4d8e0d8
+Fast-forward
+ index.php | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git add -all
+error: did you mean `--all` (with two dashes)?
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git add --all
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout test
+A       README.md
+Switched to branch 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git commit -m "Created readme"
+[test 482e79b] Created readme
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git checkout main
+Switched to branch 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git merge test
+Updating 4d8e0d8..482e79b
+Fast-forward
+ README.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout test
+Switched to branch 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git checkout -b test1
+Switched to a new branch 'test1'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git status
+On branch test1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        lol.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git add lol.js
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git commit -m "added lol.js"
+[test1 35280e7] added lol.js
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 lol.js
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git checkout test
+Switched to branch 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git merge test1
+Updating 482e79b..35280e7
+Fast-forward
+ lol.js | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 lol.js
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git merge main
+Already up to date.
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout main
+Already on 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git merge test
+Updating 482e79b..35280e7
+Fast-forward
+ lol.js | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 lol.js
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout test
+Switched to branch 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git checkout test1
+Switched to branch 'test1'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git status
+On branch test1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        boom.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git checkout main
+Switched to branch 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git merge test1
+Already up to date.
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout test1
+Switched to branch 'test1'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git add --all
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git commit -m "added boom.css"
+[test1 f64fc3f] added boom.css
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 boom.css
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git checkout main
+Switched to branch 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git merge test1
+Updating 35280e7..f64fc3f
+Fast-forward
+ boom.css | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 boom.css
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout test
+Already on 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git merge test1
+Updating 35280e7..f64fc3f
+Fast-forward
+ boom.css | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 boom.css
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git checkout test
+Switched to branch 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git checkout -b test2
+Switched to a new branch 'test2'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test2)
+$ git checkout main
+Switched to branch 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git branch expert
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout -b expert1
+Switched to a new branch 'expert1'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (expert1)
+$ git checkout main
+Switched to branch 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Among Us.zip
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git add --all
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout test1
+A       Among Us.zip
+Switched to branch 'test1'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git commit -m "Among us"
+[test1 e62f25b] Among us
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Among Us.zip
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git checkout test
+Switched to branch 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git merge test1
+Updating f64fc3f..e62f25b
+Fast-forward
+ Among Us.zip | Bin 0 -> 71444129 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Among Us.zip
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git checkout main
+Switched to branch 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git merge test
+Updating f64fc3f..e62f25b
+Fast-forward
+ Among Us.zip | Bin 0 -> 71444129 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Among Us.zip
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout main
+Already on 'main'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git remote add origin https://github.com/yeran-wicky/anewrepo.git
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git branch -M main
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git push -u origin main
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/yeran-wicky/anewrepo.git/'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git push --set-upstream origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/yeran-wicky/anewrepo.git'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git remote add origin https://github.com/yeran-wicky/anewrepo.git
+error: remote origin already exists.
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git branch -M main
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git push -u origin main
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/yeran-wicky/anewrepo.git/'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git branch -M main
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git push -u origin main
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
+Username for 'https://github.com':
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
+Password for 'https://github.com':
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/yeran-wicky/anewrepo.git/'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git branch
+  expert
+  expert1
+* main
+  test
+  test1
+  test2
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (main)
+$ git checkout test1
+Already on 'test1'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git status
+On branch test1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        mulifes.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git add --multifes.xml
+error: unknown option `multifes.xml'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --[no-]dry-run    dry run
+    -v, --[no-]verbose    be verbose
+
+    -i, --[no-]interactive
+                          interactive picking
+    -p, --[no-]patch      select hunks interactively
+    -e, --[no-]edit       edit current diff and apply
+    -f, --[no-]force      allow adding otherwise ignored files
+    -u, --[no-]update     update tracked files
+    --[no-]renormalize    renormalize EOL of tracked files (implies -u)
+    -N, --[no-]intent-to-add
+                          record only the fact that the path will be added later
+    -A, --[no-]all        add changes from all tracked and untracked files
+    --[no-]ignore-removal ignore paths removed in the working tree (same as --no-all)
+    --[no-]refresh        don't add, only refresh the index
+    --[no-]ignore-errors  just skip files which cannot be added because of errors
+    --[no-]ignore-missing check if - even missing - files are ignored in dry run
+    --[no-]sparse         allow updating entries outside of the sparse-checkout cone
+    --[no-]chmod (+|-)x   override the executable bit of the listed files
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git add multifes.xml
+fatal: pathspec 'multifes.xml' did not match any files
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git add mulifes.xml
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git commit -m "Added mulifes.xml"
+[test1 7036b02] Added mulifes.xml
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 mulifes.xml
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git branch
+  expert
+  expert1
+  main
+  test
+* test1
+  test2
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git branch testpro
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test1)
+$ git branch -d testpro
+error: cannot delete branch 'testpro' used by worktree at 'C:/xampp/htdocs/AnewPro'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (testpro)
+$ git checkout test
+Switched to branch 'test'
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git branch -d testpro
+error: the branch 'testpro' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D testpro'
+hint: Disable this message with "git config advice.forceDeleteBranch false"
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git branch -D testpro
+Deleted branch testpro (was 7036b02).
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git status
+On branch test
+nothing to commit, working tree clean
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$ git branch
+  expert
+  expert1
+  main
+* test
+  test1
+  test2
+
+Lenovo X1 Carbon 6G@YeranWicky-X1 MINGW64 /c/xampp/htdocs/AnewPro (test)
+$
